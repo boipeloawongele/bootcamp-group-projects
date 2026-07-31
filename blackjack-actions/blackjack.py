@@ -21,7 +21,13 @@ def parse_state(text):
 
 
 def generate_actions(state):
-    raise NotImplementedError("This function is not implemented yet.")
+def generate_actions ("Hit")
+def generate_actions("Stand")
+def generate_actions("Double down")
+def generate_actions ("Split")
+def generate_actions("Surrender")
+def generate_actions("Insurance")
+    raise ImplementedError("This function is now implemented yet.")
 
 
 def apply_action(state, action, next_card=None):
