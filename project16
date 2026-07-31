@@ -1,0 +1,45 @@
+from random import shuffle 
+cards["king", "queen", "jack",,"ace"   ]
+for cards in cards:
+    random.shuffle(cards)
+    def draw_card():
+        return random.choice(cards)
+        def calculate-score(hand)
+        score -sum(hand)
+        return(score)
+        
+RANK_VALUES = {
+    "2": 2, "3": 3, "4": 4, "5": 5, "6": 6, "7": 7, "8": 8, "9": 9, "10": 10,
+    "J": 10, "Q": 10, "K": 10, "A": 11,
+}
+
+
+def hand_value(cards):
+    total = sum(RANK_VALUES[card] for card in cards)
+    aces = cards.count("A")
+    while total > 21 and aces > 0:
+        total -= 10
+        aces -= 1
+    return total
+
+
+def parse_state(text):
+    hand_str, dealer_upcard, flag = [part.strip() for part in text.split("|")]
+    hand = [rank.strip() for rank in hand_str.split(",")]
+
+    return ...
+
+
+def generate_actions(state):
+def generate_actions ("Hit")
+def generate_actions("Stand")
+def generate_actions("Double down")
+def generate_actions ("Split")
+def generate_actions("Surrender")
+def generate_actions("Insurance")
+    raise ImplementedError("This function is now implemented .")
+
+
+def apply_action(state, action, next_card=):
+    apply_action("hit", "5")
+    apply_action("split")
