@@ -1,0 +1,2 @@
+def generate_actions(State)
+def generate_actions("Hit")
